@@ -1,47 +1,70 @@
 import React, { Component } from "react";
+import { connect } from "react-redux";
 
 class Header extends Component {
-	render() {
-		return (
-			<nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-				<a className="navbar-brand" href="#">
-					Fight the Mind
-				</a>
-				<ul className="navbar-nav ml-auto">
-					<li className="nav-item active">
-						<a className="nav-link" href="#">
-							Doctors
-						</a>
-					</li>
-					<li className="nav-item active">
-						<a className="nav-link" href="#">
-							Forum
-						</a>
-					</li>
-					<li className="nav-item active">
-						<a className="nav-link" href="#">
-							Celebrities
-						</a>
-					</li>
-					<li className="nav-item active">
-						<a className="nav-link" href="#">
-							Contact
-						</a>
-					</li>
-					<li className="nav-item active">
-						<a className="nav-link" href="#">
-							About Us
-						</a>
-					</li>
+	renderContent() {
+		switch (this.props.auth) {
+			case null:
+				return;
+			case false:
+				return (
 					<li className="nav-item active">
 						<a className="nav-link" href="/auth/google">
 							Login
 						</a>
 					</li>
+				);
+			default:
+				return (
+					<li className="nav-item active">
+						<a className="nav-link" href="/api/logout">
+							Logout
+						</a>
+					</li>
+				);
+		}
+	}
+
+	render() {
+		return (
+			<nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+				<a className="navbar-brand" href="/">
+					Fight the Mind
+				</a>
+				<ul className="navbar-nav ml-auto">
+					<li className="nav-item active">
+						<a className="nav-link" href="/doctors">
+							Doctors
+						</a>
+					</li>
+					<li className="nav-item active">
+						<a className="nav-link" href="/forum">
+							Forum
+						</a>
+					</li>
+					<li className="nav-item active">
+						<a className="nav-link" href="/celebrities">
+							Celebrities
+						</a>
+					</li>
+					<li className="nav-item active">
+						<a className="nav-link" href="/contact">
+							Contact
+						</a>
+					</li>
+					<li className="nav-item active">
+						<a className="nav-link" href="/aboutUs">
+							About Us
+						</a>
+					</li>
+					<li className="nav-item active">{this.renderContent()}</li>
 				</ul>
 			</nav>
 		);
 	}
 }
+function mapStateToProps({ auth }) {
+	return { auth };
+}
 
-export default Header;
+export default connect(mapStateToProps)(Header);

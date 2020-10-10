@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lato&display=swap");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.pb-lg-25,
+.py-lg-25 {
+	padding-bottom: 4rem !important;
+	padding-left: 5rem;
+	padding-right: 5rem;
+	margin-top: 30px;
+}
+.pt-lg-25,
+.py-lg-25 {
+	padding-top: 4rem !important;
+}
+.container {
+	padding-top: 30px;
+	padding-bottom: 50px;
+	margin-top: 30px;
+}
+.mt-md-0,
+.my-md-0 {
+	margin-bottom: 30px !important;
+}
+.card.demo-card .card-body img,
+.demo-card-placeholder {
+	box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+	transition: all 0.2s ease-in-out;
+}
+img {
+	max-width: 100%;
+}
+img {
+	vertical-align: middle;
+	border-style: none;
+}
+*,
+::after,
+::before {
+	box-sizing: border-box;
+}
+.card.demo-card .card-body {
+	padding: 0;
+}
+.card-body {
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	min-height: 1px;
+	padding: 1.25rem;
+}
+div {
+	display: block;
+}
+.mb-lg-20,
+.my-lg-20 {
+	margin-bottom: 3.125rem !important;
+	text-align: center;
+}
+.btn-primary {
+	color: black;
+	background-color: peachpuff !important;
+	border-color: burlywood;
+}
+.bg-primary {
+	color: black;
+	background-color: #fa8072 !important;
+	border-color: burlywood;
+	box-shadow: saddlebrown;
+}
+h1 {
+	margin-bottom: 50px;
+}
+h2 {
+	margin-bottom: 5px;
+}
+
+.btn-dark {
+	color: black;
+	background-color: antiquewhite !important;
+	border-color: rgb(175, 175, 81);
+}
+.d-flex {
+	display: -ms-flexbox !important;
+	display: flex !important;
+}
+.mb-11,
+.my-11 {
+	margin-bottom: 1.5rem !important;
+	margin-top: 2rem !important;
+}
+.bg-dark-90 {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+.bg-secondary {
+	background-color: rosybrown;
+}
+.section {
+	position: relative;
+	margin-top: 88px;
+	margin-bottom: 100px;
+}
+.col-lg-6 {
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
+	max-width: 50%;
+}
+.w-100 {
+	width: 100% !important;
+}
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+img {
+	max-width: 100%;
+}
+img {
+	vertical-align: middle;
+	border-style: none;
+}
+.hero-bg-white {
+	background: #fff;
+}
+.hero {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 100px;
+}
+.hero-background.hero-background-70-percent {
+	width: 70%;
+}
+.hero-background.hero-background-stick-right {
+	right: 0;
+	left: 740px;
+}
+.hero-background img {
+	width: auto;
+	height: auto;
+	-o-object-fit: cover;
+	font-family: "object-fit:cover";
+	object-fit: cover;
+	margin-top: 10px;
+}
+.hero-background,
+.hero-background-overlay,
+.hero-foreground {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 10;
+}
+.py-19 {
+	background-color: #fa8072;
+}
+a {
+	color: white;
+}
+.offset-lg-3 {
+	font-family: "Cedarville Cursive", sans-serif;
+}
