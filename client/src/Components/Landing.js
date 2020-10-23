@@ -5,6 +5,7 @@ class Landing extends Component {
 		return (
 			<div>
 				<div className="container">
+					<p id="welcome-message"></p>
 					<div className="d-flex align-items-center justify-content-center py-18 py-md-23 py-lg-25">
 						<div
 							className="card border-0 text-center mx-15 mx-lg-0 bg-dark-90"
@@ -31,9 +32,6 @@ class Landing extends Component {
 									semper. Aliquam sit amet metus id ipsum accumsan efficitur
 									luctus eu dui.
 								</p>
-								<a href="/contanctUs" className="btn btn-lg btn-primary">
-									Get In Touch Anytime
-								</a>
 							</div>
 						</div>
 					</div>
@@ -51,7 +49,7 @@ class Landing extends Component {
 					}}
 				>
 					<img
-						src="https://images.unsplash.com/photo-1581789164394-810293cd79ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1955&q=80"
+						src="https://teenmentalhealth.org/wp-content/uploads/2014/04/booth-graphics-for-bg.jpg"
 						className="jarallax-img"
 						style={{
 							objectFit: "cover",
@@ -70,9 +68,13 @@ class Landing extends Component {
 							marginTop: "auto",
 							transform: "translate3d(0px, 17.96px, 0px)",
 						}}
+						alt="..."
 					/>
 				</div>
-				<section className="section bg-primary text-white pb-x1-0 pt-21">
+				<section
+					className="section bg-primary text-white pb-x1-0 pt-21"
+					style={{ opacity: "80%" }}
+				>
 					<div className="section-content container">
 						<div className="row">
 							<div className="col-12 col-xl-12 text-center text-xl-center">
@@ -133,7 +135,7 @@ class Landing extends Component {
 									semper. Aliquam sit amet metus id ipsum accumsan efficitur
 									luctus eu dui.
 								</p>
-								<a href="/forum" className="btn btn-lg btn-primary">
+								<a href="/posts" className="btn btn-lg btn-primary">
 									The Forum
 								</a>
 							</div>
@@ -141,7 +143,10 @@ class Landing extends Component {
 					</div>
 				</div>
 
-				<section className="section bg-primary text-white pb-x1-0 pt-21">
+				<section
+					className="section bg-primary text-white pb-x1-0 pt-21"
+					style={{ opacity: "80%" }}
+				>
 					<div className="section-content container">
 						<div className="row">
 							<div className="col-12 col-xl-12 text-center text-xl-center">

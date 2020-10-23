@@ -8,7 +8,7 @@ class Footer extends Component {
 					<div className="row align-items-center">
 						<div
 							className="col-12 col-md-6 col-lg-2 mb-14 mb-md-0"
-							style={{ marginLeft: "150px" }}
+							style={{ marginLeft: "10px" }}
 						>
 							<div className="d-flex align-items-center justify-content-center justify-content-md-start">
 								<a href="/" className="footer-brand">
@@ -18,26 +18,26 @@ class Footer extends Component {
 						</div>
 						<div
 							className="col-12 col-12 col-lg-2 mb-14 mb-md-0"
-							style={{ marginLeft: "300px" }}
+							style={{ marginLeft: "400px" }}
 						>
 							<a
 								href="#"
 								data-toggle="smooth-scroll"
 								data-target="#page-start-anchor"
 							>
-								<i class="material-icons">arrow_upward</i>
+								<i className="material-icons">arrow_upward</i>
 							</a>
 						</div>
 						<div
-							className="col-12 col-12 col-lg-2 mb-14 mb-md-0"
-							style={{ marginLeft: "180px" }}
+							className="col-12 col-md-6 col-lg-2 mb-14 mb-md-0"
+							style={{ marginLeft: "280px" }}
 						>
 							<ul className="footer-menu">
 								<li>
 									<a href="#">Privacy Policy</a>
 								</li>
 								<li>
-									<a href="#">T and C</a>
+									<a href="#">Admin Login</a>
 								</li>
 							</ul>
 						</div>

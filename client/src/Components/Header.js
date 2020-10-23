@@ -27,9 +27,9 @@ class Header extends Component {
 
 	render() {
 		return (
-			<nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+			<nav className="navbar navbar-expand-lg navbar-dark">
 				<a className="navbar-brand" href="/">
-					Fight the Mind
+					Fight The Mind
 				</a>
 				<ul className="navbar-nav ml-auto">
 					<li className="nav-item active">
@@ -38,8 +38,8 @@ class Header extends Component {
 						</a>
 					</li>
 					<li className="nav-item active">
-						<a className="nav-link" href="/forum">
-							Forum
+						<a className="nav-link" href="/posts">
+							Share
 						</a>
 					</li>
 					<li className="nav-item active">

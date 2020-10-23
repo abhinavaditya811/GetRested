@@ -5,11 +5,12 @@ import * as actions from "../actions";
 
 import Header from "./Header";
 import Landing from "./Landing";
+import Doctors from "./Doctors/doctors";
+import Posts from "./Forum/posts";
+import Forum from "./Forum/forum";
+import Celebrities from "./celebrities";
 import AboutUs from "./aboutUs";
 import Footer from "./footer";
-import Forum from "./forum";
-const Celebrity = () => <h2>Celebrity</h2>;
-const Doctors = () => <h2>Doctors</h2>;
 const Contact = () => <h2>Contact</h2>;
 
 class App extends Component {
@@ -25,11 +26,12 @@ class App extends Component {
 						<Header />
 						<Route exact path="/" component={Landing} />
 						<Route exact path="/forum" component={Forum} />
-						<Route exact path="/celebrity" component={Celebrity} />
+						<Route exact path="/celebrities" component={Celebrities} />
 						<Route exact path="/dashboard" component={Landing} />
 						<Route exact path="/doctors" component={Doctors} />
 						<Route exact path="/aboutUs" component={AboutUs} />
-						<Route exact path="/contactUs" component={Contact} />
+						<Route exact path="/contact" component={Contact} />
+						<Route exact path="/posts" component={Posts} />
 						<Footer />
 					</div>
 				</BrowserRouter>
