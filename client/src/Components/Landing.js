@@ -4,33 +4,35 @@ class Landing extends Component {
 	render() {
 		return (
 			<div>
-				<div className="container">
-					<p id="welcome-message"></p>
+				<div className="container" style={{ paddingTop: "0.5rem" }}>
 					<div className="d-flex align-items-center justify-content-center py-18 py-md-23 py-lg-25">
-						<div
-							className="card border-0 text-center mx-15 mx-lg-0 bg-dark-90"
-							styles="max-width: 770px"
-						>
+						<div className="card border-0 text-center mx-15 mx-lg-0 bg-dark-90">
 							<div className="card-body text-body p-10 p-lg-22">
-								<h1 className="text-black fs-6 fs-md-9 fs-lg-11 lh-lg-12 mb-10">
+								<h1
+									className="text-black fs-6 fs-md-9 fs-lg-11 lh-lg-12 mb-10"
+									style={{ marginBottom: "1px" }}
+								>
 									Fight The Mind
 								</h1>
 								<p
 									className="container fs-4 fs-md-5 mb-10 mx-auto"
-									styles="max-width: 530px"
+									style={{ fontSize: "19px" }}
 								>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-									Pellentesque blandit, odio sit amet ornare pharetra, enim
-									lorem auctor neque, lacinia pulvinar dolor massa et ante. Sed
-									placerat, velit a tincidunt consectetur, ligula justo
-									consectetur mauris, quis egestas tellus dolor quis tellus.
-									Aliquam feugiat in elit et imperdiet. Cras sit amet orci
-									cursus, aliquam justo ultrices, elementum ante. In tempor,
-									nisl ac euismod dignissim, elit nibh bibendum libero, nec
-									pulvinar ligula justo non justo. Aenean sagittis vulputate
-									neque a aliquet. Nunc congue neque suscipit consectetur
-									semper. Aliquam sit amet metus id ipsum accumsan efficitur
-									luctus eu dui.
+									It was the World Health Organisation which estimated that one
+									in seven Indians suffered from poor mental health and labeled
+									the country the most depressing country in the world. The
+									President of India, Ram Nath Kovind, echoed the view in
+									December 2017 and warned the country that a mental health
+									epidemic was round the corner.
+									<br />
+									<br />
+									Fight the mind is an all in one mental health service portal
+									for fighting the challenges that India faces related to mental
+									health issues. We aim at providing a web portal that caters to
+									all the needs of people facing mental health disorders or
+									issues like anxiety, depression, stress, etc. It aims towards
+									providing a concrete solution for the issue of mental health
+									at the grass-root level.
 								</p>
 							</div>
 						</div>
@@ -73,7 +75,7 @@ class Landing extends Component {
 				</div>
 				<section
 					className="section bg-primary text-white pb-x1-0 pt-21"
-					style={{ opacity: "80%" }}
+					style={{ opacity: "90%" }}
 				>
 					<div className="section-content container">
 						<div className="row">
@@ -84,25 +86,18 @@ class Landing extends Component {
 								</small>
 								<p
 									className="container fs-4 fs-md-5 mb-10 mx-auto"
-									styles="max-width: 530px"
+									style={{ fontSize: "19px" }}
 								>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-									Pellentesque blandit, odio sit amet ornare pharetra, enim
-									lorem auctor neque, lacinia pulvinar dolor massa et ante. Sed
-									placerat, velit a tincidunt consectetur, ligula justo
-									consectetur mauris, quis egestas tellus dolor quis tellus.
-									Aliquam feugiat in elit et imperdiet. Cras sit amet orci
-									cursus, aliquam justo ultrices, elementum ante. In tempor,
-									nisl ac euismod dignissim, elit nibh bibendum libero, nec
-									pulvinar ligula justo non justo. Aenean sagittis vulputate
-									neque a aliquet. Nunc congue neque suscipit consectetur
-									semper. Aliquam sit amet metus id ipsum accumsan efficitur
-									luctus eu dui.Cras sit amet orci cursus, aliquam justo
-									ultrices, elementum ante. In tempor, nisl ac euismod
-									dignissim, elit nibh bibendum libero, nec pulvinar ligula
-									justo non justo. Aenean sagittis vulputate neque a aliquet.
-									Nunc congue neque suscipit consectetur semper. Aliquam sit
-									amet metus id ipsum accumsan efficitur luctus eu dui.
+									Through this portal, we wish to provide a platform where we
+									have different pages designed in order to help people find
+									solutions for their mental illness from the comfort of their
+									homes. Our main purposes include
+									<br />
+									<br /> -Helping people find psychologists online
+									<br /> -Inspiring them to open up about the mental illness
+									<br /> -Reaching out to people who have battled mental health
+									issues
+									<br /> -24x7 helpline
 								</p>
 							</div>
 						</div>
@@ -110,30 +105,23 @@ class Landing extends Component {
 				</section>
 				<div className="container">
 					<div className="d-flex align-items-center justify-content-center py-18 py-md-23 py-lg-25">
-						<div
-							className="card border-0 text-center mx-15 mx-lg-0 bg-dark-90"
-							styles="max-width: 770px"
-						>
+						<div className="card border-0 text-center mx-15 mx-lg-0 bg-dark-90">
 							<div className="card-body text-body p-10 p-lg-22">
 								<h1 className="text-black fs-6 fs-md-9 fs-lg-11 lh-lg-12 mb-10">
-									Connect to other poeple
+									Connect with other poeple
 								</h1>
 								<p
 									className="container fs-4 fs-md-5 mb-10 mx-auto"
-									styles="max-width: 530px"
+									style={{ fontSize: "19px" }}
 								>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-									Pellentesque blandit, odio sit amet ornare pharetra, enim
-									lorem auctor neque, lacinia pulvinar dolor massa et ante. Sed
-									placerat, velit a tincidunt consectetur, ligula justo
-									consectetur mauris, quis egestas tellus dolor quis tellus.
-									Aliquam feugiat in elit et imperdiet. Cras sit amet orci
-									cursus, aliquam justo ultrices, elementum ante. In tempor,
-									nisl ac euismod dignissim, elit nibh bibendum libero, nec
-									pulvinar ligula justo non justo. Aenean sagittis vulputate
-									neque a aliquet. Nunc congue neque suscipit consectetur
-									semper. Aliquam sit amet metus id ipsum accumsan efficitur
-									luctus eu dui.
+									This is a platform where all the people who have battled
+									mental illness can share their experiences and this also gives
+									the people currently facing mental health issues the chance to
+									interact with these people as well as ask questions concerning
+									their problems. This platform gives all the people facing
+									mental health issues the power of “anonymity” so that everyone
+									can share their problems without the fear of being judged by
+									others.
 								</p>
 								<a href="/posts" className="btn btn-lg btn-primary">
 									The Forum
@@ -145,7 +133,7 @@ class Landing extends Component {
 
 				<section
 					className="section bg-primary text-white pb-x1-0 pt-21"
-					style={{ opacity: "80%" }}
+					style={{ opacity: "90%" }}
 				>
 					<div className="section-content container">
 						<div className="row">
@@ -154,26 +142,12 @@ class Landing extends Component {
 								<small className="fs-1 1h-1 font-family-secondary text-uppercase font-weight-bold letter-spacing-caption text-muted"></small>
 								<p
 									className="container fs-4 fs-md-5 mb-10 mx-auto"
-									styles="max-width: 530px"
+									style={{ fontSize: "19px" }}
 								>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-									Pellentesque blandit, odio sit amet ornare pharetra, enim
-									lorem auctor neque, lacinia pulvinar dolor massa et ante. Sed
-									placerat, velit a tincidunt consectetur, ligula justo
-									consectetur mauris, quis egestas tellus dolor quis tellus.
-									Aliquam feugiat in elit et imperdiet. Cras sit amet orci
-									cursus, aliquam justo ultrices, elementum ante. In tempor,
-									nisl ac euismod dignissim, elit nibh bibendum libero, nec
-									pulvinar ligula justo non justo. Aenean sagittis vulputate
-									neque a aliquet. Nunc congue neque suscipit consectetur
-									semper. Aliquam sit amet metus id ipsum accumsan efficitur
-									luctus eu dui.Cras sit amet orci cursus, aliquam justo
-									ultrices, elementum ante. In tempor, nisl ac euismod
-									dignissim, elit nibh bibendum libero, nec pulvinar ligula
-									justo non justo. Aenean sagittis vulputate neque a aliquet.
-									Nunc congue neque suscipit consectetur semper. Aliquam sit
-									amet metus id ipsum accumsan efficitur luctus eu dui. Want to
-									know more about us?
+									We are a group of Computer Science enthusiasts from Manipal
+									University Jaipur working towards one of the major stigmas
+									that the Indian society faces in today’s time i.e. the taboo
+									of mental health. Want to know more about us?
 								</p>
 								<a href="/aboutUs" className="btn btn-lg btn-dark">
 									Read More

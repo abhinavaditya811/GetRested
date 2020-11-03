@@ -34,7 +34,7 @@ passport.use(
 							.then((user) => done(null, user));
 					}
 				})
-				.then(console.log(profile.name.givenName));
+				.catch((err) => console.log(err));
 		}
 	)
 );

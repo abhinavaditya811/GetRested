@@ -21,7 +21,7 @@ class Footer extends Component {
 							style={{ marginLeft: "400px" }}
 						>
 							<a
-								href="#"
+								href="/"
 								data-toggle="smooth-scroll"
 								data-target="#page-start-anchor"
 							>
@@ -34,10 +34,10 @@ class Footer extends Component {
 						>
 							<ul className="footer-menu">
 								<li>
-									<a href="#">Privacy Policy</a>
+									<a href="/">Privacy Policy</a>
 								</li>
 								<li>
-									<a href="#">Admin Login</a>
+									<a href="/">Admin Login</a>
 								</li>
 							</ul>
 						</div>

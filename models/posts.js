@@ -1,11 +1,7 @@
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 
 const { Schema } = mongoose;
 const useRSchema = Schema({
-	firstName: {
-		type: String,
-		required: true,
-	},
 	title: {
 		type: String,
 		required: true,
@@ -14,4 +10,12 @@ const useRSchema = Schema({
 		type: String,
 		required: true,
 	},
+	author: {
+		type: String,
+		required: true,
+	},
 });
+
+const Posts = mongoose.model("posts", useRSchema);
+
+module.exports = Posts;

@@ -13,12 +13,16 @@ class AboutUs extends Component {
 									<div className="pr-0 pr-lg-10">
 										<h2 className="mb-0">Welcome</h2>
 										<p className="mt-8 mb-11">
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-											Pellentesque blandit, odio sit amet ornare pharetra, enim
-											lorem auctor neque, lacinia pulvinar dolor massa et ante.
-											Sed placerat, velit a tincidunt consectetur, ligula justo
-											consectetur mauris, quis egestas tellus dolor quis tellus.
-											Aliquam feugiat in elit et imperdiet.
+											We are a group of Computer Science enthusiasts from
+											Manipal University Jaipur working towards one of the major
+											stigmas that the Indian society faces in today’s time i.e.
+											the taboo of mental health.
+											<br />
+											<br />
+											We created this portal so that we can provide people who
+											suffer from mental illnesses or disorders have a place to
+											go to where they can seek help and express themselves
+											without the fear of being judged.
 										</p>
 									</div>
 								</div>
@@ -72,7 +76,9 @@ class AboutUs extends Component {
 						<div className="row">
 							<div className="col-12 col-xl-12 text-center text-xl-center">
 								<h1 className="fs-8 fs-md-9 fs-x1-10">The Team</h1>
-								<small className="fs-1 1h-1 font-family-secondary text-uppercase font-weight-bold letter-spacing-caption text-muted"></small>
+								<small className="fs-1 1h-1 font-family-secondary text-uppercase font-weight-bold letter-spacing-caption text-muted">
+									Just a bunch of nerds
+								</small>
 								<p
 									className="container fs-4 fs-md-5 mb-10 mx-auto"
 									styles="max-width: 530px"
@@ -194,11 +200,66 @@ class AboutUs extends Component {
 						<div className="container d-flex align-items-center justify-content-center justify-content-lg-start py-14 py-md-23 py-lg-25">
 							<div
 								className="card border-0 text-center text-lg-left"
-								style={{ maxWidth: "595px" }}
+								style={{
+									maxWidth: "595px",
+									position: "relative",
+									left: "-50px",
+									right: "0px",
+								}}
 							>
 								<div className="card-body text-body p-19 pl-lg-0 pr-lg-20 py-lg-20">
 									<h1 className="text-black fs-6 fs-md-9 fs-lg-11 lh-lg-13 mb-10">
 										Vaibhav Bhat
+									</h1>
+									<p className="fs-4 fs-md-5 mb-10">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+										Pellentesque blandit, odio sit amet ornare pharetra, enim
+										lorem auctor neque, lacinia pulvinar dolor massa et ante.
+										Sed placerat, velit a tincidunt consectetur, ligula justo
+										consectetur mauris, quis egestas tellus dolor quis tellus.
+										Aliquam feugiat in elit et imperdiet. Cras sit amet orci
+										cursus, aliquam justo ultrices, elementum ante. In tempor,
+										nisl ac euismod dignissim, elit nibh bibendum libero, nec
+										pulvinar ligula justo non justo. Aenean sagittis vulputate
+										neque a aliquet. Nunc congue neque suscipit consectetur
+										semper. Aliquam sit amet metus id ipsum accumsan efficitur
+										luctus eu dui.Cras sit amet orci cursus, aliquam justo
+										ultrices, elementum ante.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section
+					className="hero hero-fullscreen hero-bg-white hero-bg-ready"
+					style={{ minHeight: "661.2px" }}
+				>
+					<div className="hero-background hero-background-stick-right hero-background-70-percent">
+						<img
+							src="https://scontent.fdel3-2.fna.fbcdn.net/v/t1.15752-9/123083706_287043892413724_4778772831108308454_n.jpg?_nc_cat=108&ccb=2&_nc_sid=ae9488&_nc_ohc=5btKI8nOsP0AX-tCPcB&_nc_ht=scontent.fdel3-2.fna&oh=cdaaf33dcda587649eb49b432d30a54d&oe=5FBBE311"
+							alt="..."
+							style={{
+								maxWidth: "595px",
+								width: "500px",
+								position: "relative",
+								left: "85px",
+								right: "0px",
+								marginTop: "100px",
+							}}
+						/>
+					</div>
+					<div className="hero-foreground d-flex flex-column justify-content-center">
+						<div className="container d-flex align-items-center justify-content-center justify-content-lg-start py-14 py-md-23 py-lg-25">
+							<div
+								className="card border-0 text-center text-lg-left"
+								style={{
+									maxWidth: "595px",
+								}}
+							>
+								<div className="card-body text-body p-19 pl-lg-0 pr-lg-20 py-lg-20">
+									<h1 className="text-black fs-6 fs-md-9 fs-lg-11 lh-lg-13 mb-10">
+										Jayvardhan Singh
 									</h1>
 									<p className="fs-4 fs-md-5 mb-10">
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit.

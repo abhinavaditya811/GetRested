@@ -11,7 +11,7 @@ class Doctors extends Component {
 						className="bg-image"
 						style={{ maxHeight: "396px", marginTop: "55px" }}
 					/>
-					<div className="container height-lg-30">
+					<div className="container">
 						<div className="row">
 							<div className="col-md-8 col-lg-7 col-xl-6">
 								<h1 className="display-4 text-white">The Doctors</h1>
@@ -28,7 +28,7 @@ class Doctors extends Component {
 							<div className="card">
 								<img
 									className="img-class-top"
-									src="https://insight.mediumra.re/assets/img/portrait-male-1.jpg"
+									src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
 									alt="doc1"
 								/>
 								<div className="card-body py-3">
@@ -48,7 +48,7 @@ class Doctors extends Component {
 							<div className="card">
 								<img
 									className="img-class-top"
-									src="https://insight.mediumra.re/assets/img/portrait-male-1.jpg"
+									src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
 									alt="doc2"
 								/>
 								<div className="card-body py-3">
@@ -68,7 +68,7 @@ class Doctors extends Component {
 							<div className="card">
 								<img
 									className="img-class-top"
-									src="https://insight.mediumra.re/assets/img/portrait-male-1.jpg"
+									src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
 									alt="doc3"
 								/>
 								<div className="card-body py-3">
@@ -90,7 +90,7 @@ class Doctors extends Component {
 							<div className="card">
 								<img
 									className="img-class-top"
-									src="https://insight.mediumra.re/assets/img/portrait-male-1.jpg"
+									src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
 									alt="doc4"
 								/>
 								<div className="card-body py-3">
@@ -110,7 +110,7 @@ class Doctors extends Component {
 							<div className="card">
 								<img
 									className="img-class-top"
-									src="https://insight.mediumra.re/assets/img/portrait-male-1.jpg"
+									src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
 									alt="doc5"
 								/>
 								<div className="card-body py-3">
@@ -130,7 +130,7 @@ class Doctors extends Component {
 							<div className="card">
 								<img
 									className="img-class-top"
-									src="https://insight.mediumra.re/assets/img/portrait-male-1.jpg"
+									src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
 									alt="doc6"
 								/>
 								<div className="card-body py-3">
@@ -152,7 +152,7 @@ class Doctors extends Component {
 							<div className="card">
 								<img
 									className="img-class-top"
-									src="https://insight.mediumra.re/assets/img/portrait-male-1.jpg"
+									src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
 									alt="doc7"
 								/>
 								<div className="card-body py-3">
@@ -172,7 +172,7 @@ class Doctors extends Component {
 							<div className="card">
 								<img
 									className="img-class-top"
-									src="https://insight.mediumra.re/assets/img/portrait-male-1.jpg"
+									src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
 									alt="doc9"
 								/>
 								<div className="card-body py-3">
@@ -192,7 +192,7 @@ class Doctors extends Component {
 							<div className="card">
 								<img
 									className="img-class-top"
-									src="https://insight.mediumra.re/assets/img/portrait-male-1.jpg"
+									src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
 									alt="..."
 								/>
 								<div className="card-body py-3">
