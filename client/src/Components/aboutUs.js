@@ -112,7 +112,7 @@ class AboutUs extends Component {
 				>
 					<div className="hero-background hero-background-stick-right hero-background-70-percent">
 						<img
-							src="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-9/12794478_565230926979759_3161330248919966678_n.jpg?_nc_cat=102&_nc_sid=09cbfe&_nc_ohc=tCA4-flclPcAX890UC0&_nc_ht=scontent.fdel3-1.fna&oh=e7cf6934818d658873ac00731ae6086c&oe=5FA3450D"
+							src="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-9/12794478_565230926979759_3161330248919966678_n.jpg?_nc_cat=102&ccb=2&_nc_sid=09cbfe&_nc_ohc=bByRo71LLIgAX-lod_C&_nc_ht=scontent.fdel3-1.fna&oh=b813af69ece9b74189e000a7a9727443&oe=5FCAD20Dw"
 							alt="..."
 						/>
 					</div>

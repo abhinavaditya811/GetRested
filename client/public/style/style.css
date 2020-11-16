@@ -78,7 +78,7 @@ div {
 }
 .bg-primary {
 	color: black !important;
-	background-color: #e7c8dd !important;
+	background-color: #e7c8f1 !important;
 	opacity: "85%" !important;
 }
 h1 {
@@ -219,11 +219,16 @@ img {
 	flex-wrap: wrap;
 	text-overflow: ellipsis;
 	box-shadow: 1px 1px 2px;
-	width: 140%;
+	width: 100%;
 	transition: 0.7s;
 	background-color: white;
 }
 
 .celebrity-card:hover {
 	transform: scale(1.1);
+}
+.btn-brand {
+	color: #fff;
+	background-color: #505cfd;
+	border-color: #505cfd;
 }

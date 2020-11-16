@@ -37,7 +37,7 @@ class Footer extends Component {
 									<a href="/">Privacy Policy</a>
 								</li>
 								<li>
-									<a href="/">Admin Login</a>
+									<a href="/adminLogin">Admin Login</a>
 								</li>
 							</ul>
 						</div>

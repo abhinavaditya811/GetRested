@@ -9,7 +9,7 @@ class Header extends Component {
 			case false:
 				return (
 					<li className="nav-item active">
-						<a className="nav-link" href="/auth/google">
+						<a className="nav-link" href="/userLogin">
 							Login
 						</a>
 					</li>

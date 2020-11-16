@@ -1,42 +1,42 @@
 import React, { Component } from "react";
 import axios from "axios";
 
-class yourPost extends Component {
+class addCelebrity extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			title: "",
-			post: "",
-			author: "",
+			url: "",
+			actorName: "",
+			description: "",
 		};
 	}
 
-	handleTitle = (e) => {
-		this.setState({ title: e.target.value });
+	handleUrl = (e) => {
+		this.setState({ url: e.target.value });
 	};
 
-	handlePost = (e) => {
-		this.setState({ post: e.target.value });
+	handleactorName = (e) => {
+		this.setState({ actorName: e.target.value });
 	};
 
-	handleAuthor = (e) => {
-		this.setState({ author: e.target.value });
+	handleDescription = (e) => {
+		this.setState({ description: e.target.value });
 	};
 
 	handleSubmit = (e) => {
 		e.preventDefault();
 		const details = {
-			title: this.state.title,
-			post: this.state.post,
-			author: this.state.author,
+			url: this.state.url,
+			actorName: this.state.actorName,
+			description: this.state.description,
 		};
 		console.log(details);
 		axios
-			.post("http://localhost:5000/forum", details)
-			.then((res) => console.log(res.data));
-		//.then(() => {
-		//	window.location.href = "/posts";
-		//});
+			.post("http://localhost:5000/addCelebrity", details)
+			.then((res) => console.log(res.data))
+			.then(() => {
+				window.location.href = "/editCelebrities";
+			});
 	};
 
 	render() {
@@ -47,29 +47,27 @@ class yourPost extends Component {
 						className="header col-12 col-lg-12"
 						style={{ marginLeft: "9rem", marginTop: "3rem" }}
 					>
-						What's on your mind?
+						Add Celebrity
 					</h1>
 					<form action="/posts" method="post" onSubmit={this.handleSubmit}>
 						<input
 							className="form-control my-3"
-							placeholder="Title"
-							name="postTitle"
+							placeholder="url"
 							type="text"
-							onChange={this.handleTitle}
-						/>
-						<textarea
-							className="form-control my-3"
-							placeholder="Story"
-							name="postContent"
-							style={{ height: "100px" }}
-							onChange={this.handlePost}
+							onChange={this.handleUrl}
 						/>
 						<input
 							className="form-control my-3"
-							placeholder="Author"
-							name="postAuthor"
+							placeholder="Name of Actor"
 							type="text"
-							onChange={this.handleAuthor}
+							onChange={this.handleactorName}
+						/>
+						<textarea
+							className="form-control my-3"
+							placeholder="Description"
+							type="text"
+							style={{ height: "100px" }}
+							onChange={this.handleDescription}
 						/>
 						<button className="btn btn-primary float-right" name="button">
 							Submit
@@ -86,4 +84,4 @@ class yourPost extends Component {
 	}
 }
 
-export default yourPost;
+export default addCelebrity;
