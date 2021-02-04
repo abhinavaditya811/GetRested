@@ -42,12 +42,25 @@ class userRegister extends Component {
 			lastName: this.state.lastName,
 		};
 		console.log(details);
-		axios
-			.post("http://localhost:5000/userRegister", details)
-			.then((res) => console.log(res.data))
-			.then(() => {
-				window.location.href = "/userLogin";
-			});
+		if (!this.state.email.includes("@")) {
+			alert("Invalid Email");
+		} else if (this.state.password.length < 6) {
+			alert("Password length should be more than 6");
+		} else if (
+			this.state.username === "" ||
+			this.state.email === "" ||
+			this.state.password === "" ||
+			this.state.firstName === "" ||
+			this.state.lastName === ""
+		) {
+			alert("All fields are required and can't be null");
+		} else
+			axios
+				.post("http://localhost:5000/userRegister", details)
+				.then((res) => console.log(res.data))
+				.then(() => {
+					window.location.href = "/userLogin";
+				});
 	};
 	handleLogingoogle = () => {
 		window.location.href = "/auth/google";
@@ -115,7 +128,7 @@ class userRegister extends Component {
 								className="btn btn-block btn-round btn-brand"
 								onClick={this.handleLogingoogle}
 							>
-								Login via Google
+								Create via Google
 							</button>
 						</div>
 						<div className="m-b-20" style={{ paddingLeft: "3rem" }}>

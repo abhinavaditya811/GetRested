@@ -27,26 +27,17 @@ class Header extends Component {
 
 	render() {
 		return (
-			<nav className="navbar navbar-expand-lg navbar-dark">
+			<nav className=" navbar navbar-expand-lg navbar-dark">
 				<a className="navbar-brand" href="/">
-					Fight The Mind
+					GetRested
 				</a>
 				<ul className="navbar-nav ml-auto">
 					<li className="nav-item active">
-						<a className="nav-link" href="/doctors">
-							Doctors
+						<a className="nav-link" href="/service">
+							Service
 						</a>
 					</li>
-					<li className="nav-item active">
-						<a className="nav-link" href="/posts">
-							Share
-						</a>
-					</li>
-					<li className="nav-item active">
-						<a className="nav-link" href="/celebrities">
-							Celebrities
-						</a>
-					</li>
+
 					<li className="nav-item active">
 						<a className="nav-link" href="/contact">
 							Contact
